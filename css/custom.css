@@ -37,3 +37,9 @@ body {
 	font-weight: bold;
 	font-family: Ariel;
 }
+
+.imgbackground{
+	background-image: url("cityheader.jpg");
+    background-color: #cccccc;
+}
+
