@@ -1,0 +1,45 @@
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #D8BE1E;
+}
+
+.container{
+	background-color: white;
+	height: 800px;
+}
+
+.navbar{
+	background-color: #000080;
+	color: white;
+/*	font-size: 30px;
+	font-family: Ariel;
+	height: 40px;*/
+}
+
+
+/*
+.vertcenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+*/
+
+.nomarginnopadding{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:white;
+	font-weight: bold;
+	font-family: Ariel;
+}
+
+.imgbackground{
+	background-image: url("cityheader.jpg");
+    background-color: #cccccc;
+}
+
