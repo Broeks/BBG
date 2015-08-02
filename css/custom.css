@@ -3,6 +3,7 @@ body {
 	margin:0;
 	padding: 0;
 	background-color: #D8BE1E;
+	padding-top:70px;
 }
 
 .container{
@@ -13,11 +14,18 @@ body {
 .navbar{
 	background-color: #000080;
 	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	border:0;
 /*	font-size: 30px;
 	font-family: Ariel;
 	height: 40px;*/
 }
 
+.navbar-fixed-top{
+    margin-right: 30px;
+    margin-left: 30px;
+  }
 
 /*
 .vertcenter{
@@ -43,3 +51,16 @@ body {
     background-color: #cccccc;
 }
 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #D8BE1E;
+}
+
+.dropdown-toggle:focus{
+	color: #000080;
+	background-color: #D8BE1E;
+}
+
+.carouselimage{
+	margin:0 auto;
+}
