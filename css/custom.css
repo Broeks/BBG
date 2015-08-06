@@ -2,48 +2,27 @@
 body {
 	margin:0;
 	padding: 0;
-	background-color: #D8BE1E;
-	padding-top:70px;
+	/*background-color: white;*/
+	background-image: url("../img/Blonde_Blazer_Faded_Small.png");
+	padding-top:50px;
 }
 
-.container{
-	background-color: white;
-	height: 800px;
+body>.container{
+	/*background-color: #FFFFCC;*/
+	padding:0;
+	/*height: 800px;*/
 }
 
 .navbar{
-	background-color: #000080;
+	background-color: #00003D;
 	color: white;
-	padding-left: 30px;
-	padding-right: 30px;
 	border:0;
-/*	font-size: 30px;
-	font-family: Ariel;
-	height: 40px;*/
-}
-
-.navbar-fixed-top{
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
-/*
-.vertcenter{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-*/
-
-.nomarginnopadding{
-	padding: 0;
-	margin: 0;
 }
 
 .navbar-default .navbar-nav>li>a{
 	color:white;
-	font-weight: bold;
-	font-family: Ariel;
+	font-weight: normal;
+	font-family: Helvetica;
 }
 
 .imgbackground{
@@ -64,3 +43,92 @@ body {
 .carouselimage{
 	margin:0 auto;
 }
+
+.bodydiv{
+	margin: 15px;
+}
+
+.navbarwidth{
+	max-width:1170px;
+	margin:0 auto;
+}
+
+.gridlogoregular{
+	height: 90%;
+	max-height:	90%;
+	width: 90%;
+	margin: 5%;
+}
+
+.pagetitle{
+	font-size: 48px;
+	color: #00003D;
+}
+
+div.carousel-inner{
+	max-height: 300px;
+	vertical-align: middle;
+}
+
+.img-responsive.carouselimage{
+	margin: auto;
+	vertical-align: middle;
+	position: 0 0;
+
+}
+
+#banner1 {
+	background-image: url("../img/Banners/HeroesBanner.png");
+}
+
+#banner2 {
+	background-image: url("../img/Banners/ParisWeekBanner.png");
+}
+
+#banner3 {
+	background-image: url("../img/Banners/RiotGamesBanner.png");
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #E6E6E6;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/* This is not required. -NH
+body > .container {
+  padding: 60px 15px 0;
+}*/
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Landing Page Styles
+-------------------------------------------------- */
+

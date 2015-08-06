@@ -18,117 +18,158 @@
 </head>
 <!-- 						<img src="img/BBGlogo.png" style="height:50px; width:50px;" class="headerimg"> -->
 <body>
-	<div class="container">
+<div class="container">
 		<!-- row 1: navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
-            	<img src="img/BBGlogo.png" style="height:50px; width:50px;" class="headerimg">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="collapse">
-            	<ul class="nav navbar-nav navbar-left">
-                	<li><a href="#">Home</a></li>
-                	<li class="dropdown">
-                		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles
-                		<span class="caret"></span></a>
-                		<ul class="dropdown-menu">
-                			<li><a href="#">Games</a></li>
-                			<li><a href="#">BBQ</a></li>
-                			<li><a href="#">Development</a></li>
-                			<li><a href="#">MEAN</a></li>
-                		</ul>
-                	</li>
-                	<li><a href="#">Forum</a></li>
-                	<li><a href="#">Photo Gallery</a></li>
-                	<li><a href="#">Contact</a></li>
-                	<li class="dropdown">
-                		<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-                		<span class="caret"></span></a>
-                		<ul class="dropdown-menu">
-                			<li><a href="#">Clan</a></li>
-                			<li><a href="#">Nathan</a></li>
-                			<li><a href="#">Daniel</a></li>
-                		</ul>
-                	</li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                	<li><a href="#">Login</a></li>
-                	<li><a href="#">Signup</a></li>   
-                </ul>  
-            </div> 
-        </nav>
-		<!--
-		<div class="jumbotron">
-			<img src="img\header background.jpg" class="img-responsive" style="background-size:cover;background-position:50% 50%;">
-		</div>
-		-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbarwidth">
+        <div class="navbar-header">
+        	<img src="img/BBGlogo.png" style="height:50px; width:50px;" class="headerimg">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+        	<ul class="nav navbar-nav navbar-left">
+            	<li><a href="#">Home</a></li>
+            	<li class="dropdown">
+            		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles
+            		<span class="caret"></span></a>
+            		<ul class="dropdown-menu">
+            			<li><a href="#">Games</a></li>
+            			<li><a href="#">BBQ</a></li>
+            			<li><a href="#">Development</a></li>
+            			<li><a href="#">MEAN</a></li>
+            		</ul>
+            	</li>
+            	<li><a href="#">Forum</a></li>
+            	<li><a href="#">Photos</a></li>
+            	<li><a href="#">Contact</a></li>
+            	<li class="dropdown">
+            		<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+            		<span class="caret"></span></a>
+            		<ul class="dropdown-menu">
+            			<li><a href="#">Clan</a></li>
+            			<li><a href="#">Nathan</a></li>
+            			<li><a href="#">Daniel</a></li>
+            		</ul>
+            	</li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            	<li><a href="#">Login</a></li>
+            	<li><a href="#">Signup</a></li>   
+          </ul>  
+        </div>
+      </div> 
+    </nav>
+
+		<!-- <div class="jumbotron">			<img src="img\header background.jpg" class="img-responsive" style="background-size:cover;background-position:50% 50%;">		</div> -->
+
+    <!-- Carousel -->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+      
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img\header background.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
-      <div class="carousel-caption">
-        INSERT IMAGE 1 DESCRIPTION
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img\Banners\HeroesBanner.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
+          <div class="carousel-caption">
+            INSERT IMAGE 1 DESCRIPTION
+          </div>
+        </div>
+        <div class="item">
+          <img src="img\Banners\ParisWeekBanner.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
+          <div class="carousel-caption">
+            INSERT IMAGE 2 DESCRIPTION
+          </div>
+        </div>
+        <div class="item">
+          <img src="img\Banners\RiotGamesBanner.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
+          <div class="carousel-caption">
+            INSERT IMAGE 3 DESCRIPTION
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-    <div class="item">
-      <img src="img\header background.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
-      <div class="carousel-caption">
-        INSERT IMAGE 2 DESCRIPTION
-      </div>
-    </div>
-    <div class="item">
-      <img src="img\header background.jpg" alt="img\header background.jpg" class="img-responsive carouselimage">
-      <div class="carousel-caption">
-        INSERT IMAGE 3 DESCRIPTION
-      </div>
-    </div>
-  </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-			<div  class="bodydiv">
-				<header>
-					<h1>WELCOME</h1>
-				</header>
-<!-- 				<div>
-					<img src="img\dogsocks.gif">
-					<img src="img\incoming.jpg">
-				</div>
-				<div>
-					<img src="img\Arnold STFU.jpg">
-					<img src="img\dog.jpg">
-				</div> -->
-				<footer>
-					<p>
-						&copy; Copyright  by Nathan
-					</p>
-				</footer>
-			</div>
+    <!-- Body Content -->
+		<div  class="bodydiv">
+			<h1 class="pagetitle">Trending Games</h1>
+
+    <!-- Grid Content -->
+      <div class="row" id="icongrid12">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6"> 
+          <a href="#"><img src="img/GamingImages/WoWLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/HeroesLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/Diablo3Logo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/FFXIVLogo.png" class="gridlogoregular"></a>
+        </div>
+<!--       </div>
+      <div class="row"> -->
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/HearthStoneLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/LeagueLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/DestinyLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/GuildWars2Logo.png" class="gridlogoregular"></a>
+        </div>
+<!--       </div>
+      <div class="row"> -->
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/CounterStrikeLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/DotaLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/MineCraftLogo.png" class="gridlogoregular"></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <a href="#"><img src="img/GamingImages/Halo4Logo.png" class="gridlogoregular"></a>
+        </div>
+      </div>
+
+
+
 		</div>
-	</div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">&copy; Copyright 2015 by Nathan & Daniel</p>
+      <a href="#">Terms and Conditions</a>
+    
+  </div>
+</footer>
 <!-- javascript -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

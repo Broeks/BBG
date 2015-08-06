@@ -18,11 +18,11 @@
 	});
 
 	app.controller('ReviewController', function(){
-		this.reviews = {};
+		this.review = {};
 
 		this.addReview = function(products) {
 			products.reviews.push(this.review);
-			this.reviews = {};
+			this.review = {};
 		};
 	});
 
