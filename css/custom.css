@@ -68,6 +68,9 @@ body>.container{
 div.carousel-inner{
 	max-height: 300px;
 	vertical-align: middle;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+
 }
 
 .img-responsive.carouselimage{
