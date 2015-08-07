@@ -13,4 +13,12 @@ var myApp = angular.module('bbgapp', []);
         templateUrl: "navbar.html"
       };
     });
+
+    myApp.directive('carousel', function() {
+     return {
+        restrict: 'E',
+        templateUrl: "carousel.html"
+      };
+    });
+    
 })();
