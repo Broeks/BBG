@@ -1,0 +1,20 @@
+[
+    {
+        "ImageID": 1,
+        "Title": "HeroesBanner",
+        "Summary": "This is the heroes banner",
+        "Path": "img/Banners/HeroesBanner.jpg"
+    },
+    {
+        "ImageID": 2,
+        "Title": "ParisWeekBanner",
+        "Summary": "This is the Paris Week Banner",
+        "Path": "img/Banners/ParisWeekBanner.jpg"
+    },
+    {
+        "ImageID": 3,
+        "Title": "RiotGamesBanner",
+        "Summary": "This is the Riot Games Banner",
+        "Path": "img/Banners/RiotGamesBanner.jpg"
+    }
+]

@@ -1,0 +1,17 @@
+{ "carouselImages" : [
+  {
+    "image":"HeroesBanner",
+    "link":"",
+    "desc":"FIRST PAGE"
+  },
+  {
+    "image":"ParisWeekBanner",
+    "link":"",
+    "desc":"SECOND PAGE"
+  },
+  {
+    "image":"RiotGamesBanner",
+    "link":"",
+    "desc":"THIRD PAGE"
+  }
+]}
